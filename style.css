@@ -6,6 +6,38 @@ body{
 }
 
 
+button {
+    height: 50px;
+    margin: 2px;
+    font-size: 1.2em;
+    border-style: none;
+    /*background-color: #d6e0f5;*/
+}
+
+
+button:hover {
+    color: aliceblue;
+    background-color: #2952a3;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.calculator {
+    position: relative;
+    top: 150px;
+    margin: 0 auto;
+    max-width: 300px;
+   
+}
+
+.calcButtons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin:0 auto;
+    background-color: #193366;
+    padding: 10px;
+}
+
 .calcButtons > button:nth-child(17) {
  
     grid-column: 1/3;
